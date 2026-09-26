@@ -8,11 +8,11 @@ A hands-on lab demonstrating identity lifecycle management (joiner, mover, leave
 Overview<br>
 Architecture<br>
 Environment setup<br>
-### Lifecycle walkthrough:<br>
+Lifecycle walkthrough:<br>
 - Joiner – new hire onboarding<br>
 - Established – mid-level device compliance<br>
 - Mover – promotion to senior level<br>
-- Leaver – retirement / offboarding<br?
+- Leaver – retirement / offboarding<br>
 Conditional Access policy matrix<br>
 Known limitations & production notes<br>
 What I'd automate next
