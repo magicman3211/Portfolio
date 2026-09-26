@@ -4,11 +4,11 @@ A hands-on lab demonstrating identity lifecycle management (joiner, mover, leave
 
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Joiner-mover-leaver-lifecycle.jpeg?raw=true)
 
-Table of contents<br>
+##Table of contents:<br>
 Overview<br>
 Architecture<br>
 Environment setup<br>
-Lifecycle walkthrough<br>
+##Lifecycle walkthrough:<br>
 Joiner – new hire onboarding<br>
 Established – mid-level device compliance<br>
 Mover – promotion to senior level<br>
