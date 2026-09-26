@@ -16,3 +16,5 @@ Set Enable to **Yes**<br>
 
 And in configure tab, Require one-time use: Yes (terminates once user registers passwordless/MFA)<br>
 <br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/target-group-lifecycle-new%20hires-one-time-pass.png?raw=true)<br>
+<br>
