@@ -18,3 +18,12 @@ And in configure tab, Require one-time use: Yes (terminates once user registers 
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/target-group-lifecycle-new%20hires-one-time-pass.png?raw=true)<br>
 <br>
+Next we need to create a condition access policy<br>
+We name it > CA-JML-Joiner-MFA-Registration-Enforcement<br>
+Users/Groups we include are our group > group-lifecycle-new-hires<br>
+Target Resources > Under User Actions > we make sure to select > Register Security Information<br>
+Conditions > Network: Include Any location, Exclude Trusted / Named Corporate IP Ranges (if strict on-prem/managed network onboarding is required; otherwise leave default).<br>
+Access Controls > Grant > Select Grant Access > Access Controls > Select Grant access > <br>
+Check Require authentication strength > Select Phishing-resistant MFA (or custom strength specifying Temporary Access Pass / FIDO2) <br>
+Enable policy: On (or Report-only for initial validation)<br>
+<br>
