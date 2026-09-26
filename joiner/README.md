@@ -7,4 +7,8 @@
 Go to Entra ID Admin Center > Authentication methods > Policies > Temporary Access Pass<br>
 Set Enable to **Yes**<br>
 <br>
-![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Temp-access-pass-settings.png?raw=true)
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Temp-access-pass-settings.png?raw=true)<br>
+<br>
+**And target new group > group-lifecycle-new-hires**<br>
+<br>
+
