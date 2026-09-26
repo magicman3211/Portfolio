@@ -25,7 +25,8 @@ What I'd automate next<br>
 **OVERVIEW:**<br>
 Built a small-scale Entra ID lab to test end-to-end identity lifecycle management. It maps out how dynamic group memberships and Conditional Access policies hand off controls automatically as someone joins, moves up within the company, and eventually exits.
 
-Why this lab: Proves hands-on execution of core IAM workflows. Instead of just studying policies on paper, it builds out the mechanics—group-driven access control, layered Conditional Access, and automated JML transitions—that day-to-day identity and cloud security admins rely on.
+Why this lab: Proves hands-on execution of core IAM workflows. Instead of just studying policies on paper, it builds out the mechanics—group-driven access control, layered Conditional Access, and automated JML transitions—that day-to-day identity and cloud security admins rely on.<br>
+<br>
 
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Entra-admin-centre.png?raw=true)
 
