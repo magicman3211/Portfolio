@@ -10,7 +10,7 @@ Architecture<br>
 Environment setup<br>
 <br>
 **Lifecycle walkthrough:**<br>
-- Joiner – new hire onboarding<br>
+[Joiner](joiner/README.md) – new hire onboarding<br>
 - Established – mid-level device compliance<br>
 - Mover – promotion to senior level<br>
 - Leaver – retirement / offboarding<br>
