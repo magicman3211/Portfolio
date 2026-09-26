@@ -3,3 +3,24 @@ Azure Entra ID – Joiner / Mover / Leaver (JML) Identity Lifecycle Automation
 A hands-on lab demonstrating identity lifecycle management (joiner, mover, leaver) in Microsoft Entra ID using security groups and Conditional Access (CA) policies to enforce tiered access controls as an employee's role changes.
 
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Joiner-mover-leaver-lifecycle.jpeg?raw=true)
+
+Table of contents
+Overview
+Architecture
+Environment setup
+Lifecycle walkthrough
+1. Joiner – new hire onboarding
+2. Established – mid-level device compliance
+3. Mover – promotion to senior level
+4. Leaver – retirement / offboarding
+Conditional Access policy matrix
+Known limitations & production notes
+What I'd automate next
+
+
+OVERVIEW:
+Built a small-scale Entra ID lab to test end-to-end identity lifecycle management. It maps out how dynamic group memberships and Conditional Access policies hand off controls automatically as someone joins, moves up within the company, and eventually exits.
+
+Why this lab: Proves hands-on execution of core IAM workflows. Instead of just studying policies on paper, it builds out the mechanics—group-driven access control, layered Conditional Access, and automated JML transitions—that day-to-day identity and cloud security admins rely on.
+
+ARCHITECTURE:
