@@ -27,4 +27,6 @@ Access Controls > Grant > Select Grant Access > Access Controls > Select Grant a
 Check Require authentication strength > Select Phishing-resistant MFA (or custom strength specifying Temporary Access Pass / FIDO2) <br>
 Enable policy: On (or Report-only for initial validation)<br>
 <br>
-![image_alt](
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/CA-JML-Joiner-MFA-Registration-Enforcement.png?raw=true)<br>
+<br>
+
