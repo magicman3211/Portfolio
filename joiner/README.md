@@ -11,4 +11,6 @@ Set Enable to **Yes**<br>
 <br>
 **And target new group > group-lifecycle-new-hires**<br>
 <br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/target-group-lifecycle-new%20hires.png?raw=true)<br>
+<br>
 
