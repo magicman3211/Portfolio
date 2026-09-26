@@ -8,6 +8,7 @@ A hands-on lab demonstrating identity lifecycle management (joiner, mover, leave
 Overview<br>
 Architecture<br>
 Environment setup<br>
+<br>
 Lifecycle walkthrough:<br>
 - Joiner – new hire onboarding<br>
 - Established – mid-level device compliance<br>
