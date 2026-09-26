@@ -23,4 +23,6 @@ Built a small-scale Entra ID lab to test end-to-end identity lifecycle managemen
 
 Why this lab: Proves hands-on execution of core IAM workflows. Instead of just studying policies on paper, it builds out the mechanics—group-driven access control, layered Conditional Access, and automated JML transitions—that day-to-day identity and cloud security admins rely on.
 
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Entra-admin-centre.png?raw=true)
+
 ARCHITECTURE:
