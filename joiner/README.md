@@ -41,6 +41,12 @@ Enable Policy > On<br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/CA-JML-Joiner-Quarantine-EntApps.png?raw=true)<br>
 <br>
 <br>
-**<ins>Next Step if we want to Automate the Joiner Process</ins>**
+**<ins>Next Step if we want to Automate the Joiner Process (Lifecycle Workflow)</ins>**<br>
+<br>
+Create workflow > select Onboard pre-hire employee template<br>
+Trigger type > Time Based Attribute >> Days from Event > 1<br>
+Scope Propert > userType > Operator > equal > Value "Member"<br>
+
+
 
 
