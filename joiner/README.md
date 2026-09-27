@@ -59,6 +59,8 @@ Now for the day when the employee strarts, We create another Lifecycle Workflow<
 Create workflow > select Onboard new hire employee template<br>
 Trigger type > Time Based Attribute >> Days from Event > 0<br>
 <br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Config-Lifecycle-Workflow-Joiner-Enable-tasks-2nd-workflow.png?raw=true)<br>
+<br>
 
 
 
