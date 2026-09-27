@@ -30,4 +30,6 @@ Built a small-scale Entra ID lab to test end-to-end identity lifecycle managemen
 
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Entra-admin-centre.png?raw=true)
 
-ARCHITECTURE:
+**Web page:** [`index.html`](./index.html)  
+- If GitHub Pages is enabled, view it at:  
+  `https://magicman3211.github.io/Portfolio/`
