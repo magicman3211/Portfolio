@@ -38,6 +38,6 @@ Conditions > Device Platforms: Any > Client Apps > Browser, Mobile apps and Desk
 Access Controls > Grant > Select Grant > Block access >> Alernative Select Grant Access > check Require device to be marked as compliant<br>
 Enable Policy > On<br>
 <br>
-
+![image_alt](
 
 
