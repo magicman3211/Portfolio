@@ -42,10 +42,11 @@ Enable Policy > On<br>
 <br>
 <br>
 **<ins>Next Step if we want to Automate the Joiner Process (Lifecycle Workflow)</ins>**<br>
+For Days/Weeks before employee offically starts with company<br>
 <br>
 Create workflow > select Onboard pre-hire employee template<br>
 Trigger type > Time Based Attribute >> Days from Event > 1<br>
-Scope Propert > userType > Operator > equal > Value "Member"<br>
+Scope Property > userType > Operator > equal > Value "Member"<br>
 <br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Config-Lifecycle-Workflow-Joiner.png?raw=true)<br>
@@ -54,7 +55,10 @@ Make sure the following tasks are enabled<br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Config-Lifecycle-Workflow-Joiner-Enable-tasks.png?raw=true)<br>
 <br>
-
+Now for the day when the employee strarts, We create another Lifecycle Workflow<br>
+Create workflow > select Onboard new hire employee template<br>
+Trigger type > Time Based Attribute >> Days from Event > 0<br>
+<br>
 
 
 
