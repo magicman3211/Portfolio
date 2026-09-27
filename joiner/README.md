@@ -46,6 +46,10 @@ Enable Policy > On<br>
 Create workflow > select Onboard pre-hire employee template<br>
 Trigger type > Time Based Attribute >> Days from Event > 1<br>
 Scope Propert > userType > Operator > equal > Value "Member"<br>
+<br>
+<br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Config-Lifecycle-Workflow-Joiner.png?raw=true)<br>
+<br>
 
 
 
