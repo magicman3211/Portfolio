@@ -11,7 +11,7 @@ Environment setup<br>
 <br>
 **Lifecycle walkthrough:**<br>
 [Joiner](joiner/README.md) – new hire onboarding<br>
-[Established](established/README.md) – mid-level device compliance<br>
+[Established](established/readme.md) – mid-level device compliance<br>
 [Mover](mover/README.md) – promotion to senior level<br>
 [Leaver](leaver/README.md) – retirement / offboarding<br>
 <br>
