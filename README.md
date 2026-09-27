@@ -13,7 +13,7 @@ Environment setup<br>
 [Joiner](joiner/README.md) – new hire onboarding<br>
 [Established](established/readme.md) – mid-level device compliance<br>
 [Mover](mover/README.md) – promotion to senior level<br>
-[Leaver](leaver/README.md) – retirement / offboarding<br>
+[Leaver](leaver/readme.md) – retirement / offboarding<br>
 <br>
 Conditional Access policy matrix<br>
 Known limitations & production notes<br>
