@@ -11,9 +11,9 @@ Environment setup<br>
 <br>
 **Lifecycle walkthrough:**<br>
 [Joiner](joiner/README.md) – new hire onboarding<br>
-- Established – mid-level device compliance<br>
-- Mover – promotion to senior level<br>
-- Leaver – retirement / offboarding<br>
+[Established](established/README.md) – mid-level device compliance<br>
+[Mover](mover/README.md) – promotion to senior level<br>
+[Leaver](leaver/README.md) – retirement / offboarding<br>
 <br>
 Conditional Access policy matrix<br>
 Known limitations & production notes<br>
