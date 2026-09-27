@@ -1,1 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Azure IAM – Joiner, Mover, Leaver (JML)</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #334155;
+    }
 
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 1rem 4rem;
+    }
+
+    header {
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 0.5rem;
+      color: var(--accent);
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 0 0 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .card h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.2rem;
+      color: var(--accent);
+    }
+
+    ul {
+      margin: 0.5rem 0 0 1.25rem;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 0.35rem;
+    }
+
+    .note {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Azure IAM – Joiner, Mover, Leaver (JML)</h1>
+      <div class="subtitle">
+        Identity and Access Management lifecycle processes in Microsoft Entra ID (Azure AD)
+      </div>
+    </header>
+
+    <section>
+      <h2>Overview</h2>
+      <div class="card">
+        <p>
+          This page documents a practical Joiner, Mover, Leaver (JML) process implemented using
+          Microsoft Entra ID (Azure AD), Azure AD Groups, Conditional Access, and optionally
+          Azure AD Privileged Identity Management (PIM) and automation tools.
+        </p>
+        <p class="note">
+          Goal: ensure users have the right access at the right time, with minimal manual effort
+          and strong auditability.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Joiner Process</h2>
+      <div class="card">
+        <h3>Trigger</h3>
+        <ul>
+          <li>New hire record created in HR system</li>
+          <li>Start date and role confirmed</li>
+        </ul>
+
+        <h3>Key Steps</h3>
+        <ul>
+          <li>User account provisioned in Entra ID (manually or via HR-driven provisioning)</li>
+          <li>Assigned to base role-based groups (e.g. “All Employees”, “Melbourne-Office”)</li>
+          <li>Licensed (Microsoft 365, Intune, etc.) according to role</li>
+          <li>Added to application-specific groups as required (e.g. “Sales-Apps”, “IT-Admins-L1”)</li>
+          <li>Conditional Access policies apply automatically based on group membership</li>
+        </ul>
+
+        <h3>Automation Options</h3>
+        <ul>
+          <li>Entra ID Provisioning with HR system (Workday, SuccessFactors, etc.)</li>
+          <li>PowerShell / Graph API scripts for group assignment</li>
+          <li>Logic Apps / Power Automate flows triggered by HR events</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Mover Process</h2>
+      <div class="card">
+        <h3>Trigger</h3>
+        <ul>
+          <li>Role change, department move, location change, or promotion</li>
+        </ul>
+
+        <h3>Key Steps</h3>
+        <ul>
+          <li>Update user attributes in Entra ID (department, jobTitle, office, manager, etc.)</li>
+          <li>Remove from old role-based groups that no longer apply</li>
+          <li>Add to new role-based and application groups for the new position</li>
+          <li>Review and adjust Conditional Access and PIM eligibility if access level changes</li>
+          <li>Log changes for audit and compliance</li>
+        </ul>
+
+        <h3>Automation Options</h3>
+        <ul>
+          <li>Dynamic groups based on attributes (department, jobTitle, etc.)</li>
+          <li>Graph API / PowerShell scripts to reconcile group membership</li>
+          <li>Periodic access reviews in Entra ID to validate movers’ access</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Leaver Process</h2>
+      <div class="card">
+        <h3>Trigger</h3>
+        <ul>
+          <li>Termination, resignation, contractor end-date, or account disable request</li>
+        </ul>
+
+        <h3>Key Steps</h3>
+        <ul>
+          <li>Disable or block sign-in for the user in Entra ID</li>
+          <li>Revoke active sessions and refresh tokens</li>
+          <li>Remove from all security and Microsoft 365 groups</li>
+          <li>Remove from all application assignments and PIM roles</li>
+          <li>Convert mailbox to shared (if required) and handle data retention</li>
+          <li>Archive or transfer OneDrive / Teams data per policy</li>
+          <li>Log all actions and retain evidence for audit</li>
+        </ul>
+
+        <h3>Automation Options</h3>
+        <ul>
+          <li>HR-driven deprovisioning via Entra ID Provisioning</li>
+          <li>Logic Apps / Power Automate flows triggered by HR termination events</li>
+          <li>PowerShell / Graph scripts to standardise leaver cleanup</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Security & Governance</h2>
+      <div class="card">
+        <ul>
+          <li>Principle of least privilege applied via role-based groups</li>
+          <li>Conditional Access policies enforce MFA, device compliance, and location rules</li>
+          <li>PIM used for just-in-time admin access where appropriate</li>
+          <li>Regular access reviews for sensitive groups and applications</li>
+          <li>Audit logs in Entra ID and connected systems for all JML actions</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Part of an IAM portfolio project by Craig Burridge.  
+        Repository: <a href="https://github.com/magicman3211/Portfolio">github.com/magicman3211/Portfolio</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
