@@ -1,4 +1,4 @@
-**Only do this Initial steps to setup Joiner Actions/Policies**<br>
+**<ins>Only do this Initial steps to setup Joiner Actions/Policies</ins>**<br>
 <br>
 
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/group-lifecycle-new-hires.png?raw=true)<br>
@@ -40,6 +40,7 @@ Enable Policy > On<br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/CA-JML-Joiner-Quarantine-EntApps.png?raw=true)<br>
 <br>
-
+<br>
+**<ins>Next Step if we want to Automate the Joiner Process</ins>**
 
 
