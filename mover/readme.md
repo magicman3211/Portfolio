@@ -12,7 +12,8 @@ Goto ID Governance > lifecycle workflows > Create Workflow<br>
 Select Mover template > enter workflow name > "Real-time employee job change" > Trigger ? On Demand<br>
 Add Task > Remove all access package assignments for user<br>
 Add Task > Add user to groups > group-lifecycle-movers<br>
-Add Task > Send email to notify manager of user move (Alert manager to request updated access packages<br>
+Add Task > Send email to notify manager of user move (Alert manager to request updated access packages)<br>
+**Note: Last task added here only as I didnt have the required license**<br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Workflow-lifecycle-movers.png?raw=true)<br>
 <br>
