@@ -1,4 +1,3 @@
-Mover<br>
 **<ins>Create a new group for Movers</ins>**<br>
 Groups > All Groups > New Group<br>
 Group type > Security<br>
@@ -7,7 +6,7 @@ Memebership Type > Assigned<br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Group-lifecycle-movers.png?raw=true)<br>
 <br>
-**Now to Add a new lifecycle workflow for the movers**<br>
+**<ins>Now to Add a new lifecycle workflow for the movers</ins>**<br>
 Goto ID Governance > lifecycle workflows > Create Workflow<br>
 Select Mover template > enter workflow name > "Real-time employee job change" > Trigger ? On Demand<br>
 Add Task > Remove all access package assignments for user<br>
@@ -17,4 +16,11 @@ Add Task > Send email to notify manager of user move (Alert manager to request u
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Workflow-lifecycle-movers.png?raw=true)<br>
 <br>
-**<ins>Now to Implement Conditional Access Policy for Movers</ins>**
+**<ins>Now to Implement Conditional Access Policy for Movers</ins>**<br>
+Conditional Access > Create new policy > name > "CA-JML-Mover-RoleTransition"<br>
+Assignments > Users > Include > user and groups > group-lifecycle-movers > exclude > break-glass Accounts<br>
+Target resources > Include ? All cloud Apps<br>
+Client Apps > Configue > Yes > Browser, Mobile Apps & Desktop clients
+Access controls > Grant > require authentication strength > Phishing resistant MFA > require device to be complient > require all the selected controls enabled<br>
+Session > Sign-in frequency > Periodic reauthentication > 1 Hr<br>
+<br>
