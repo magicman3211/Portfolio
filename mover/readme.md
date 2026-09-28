@@ -13,3 +13,6 @@ Select Mover template > enter workflow name > "Real-time employee job change" > 
 Add Task > Remove all access package assignments for user<br>
 Add Task > Add user to groups > group-lifecycle-movers<br>
 Add Task > Send email to notify manager of user move (Alert manager to request updated access packages<br>
+<br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Workflow-lifecycle-movers.png?raw=true)<br>
+<br>
