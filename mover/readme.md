@@ -16,6 +16,7 @@ Add Task > Send email to notify manager of user move (Alert manager to request u
 **Note: Last task added here only as I didnt have the required license**<br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Workflow-lifecycle-movers.png?raw=true)<br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Workflow-lifecycle-movers-tasks.png?raw=true)<br>
 <br>
 **<ins>Now to Implement Conditional Access Policy for Movers</ins>**<br>
 Conditional Access > Create new policy > name > "CA-JML-Mover-RoleTransition"<br>
