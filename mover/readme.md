@@ -24,3 +24,5 @@ Client Apps > Configue > Yes > Browser, Mobile Apps & Desktop clients
 Access controls > Grant > require authentication strength > Phishing resistant MFA > require device to be complient > require all the selected controls enabled<br>
 Session > Sign-in frequency > Periodic reauthentication > 1 Hr<br>
 <br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/CA-JML-Mover-RoleTransition.png?raw=true)<br>
+<br>
