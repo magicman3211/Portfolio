@@ -6,25 +6,20 @@ A hands-on lab demonstrating identity lifecycle management (joiner, mover, leave
 
 ## **Table of contents:**<br>
 Overview<br>
-Architecture<br>
-Environment setup<br>
+Why this lab<br>
+<br>
 <br>
 **Lifecycle walkthrough:**<br>
 [Joiner](joiner/README.md) – new hire onboarding<br>
 [Mover](mover/readme.md) – promotion to senior level<br>
 [Leaver](leaver/readme.md) – retirement / offboarding<br>
 <br>
-Conditional Access policy matrix<br>
-Known limitations & production notes<br>
-What I'd automate next<br>
 <br>
 <br>
-
-
-**OVERVIEW:**<br>
+**<ins>OVERVIEW:</ins>**<br>
 Built a small-scale Entra ID lab to test end-to-end identity lifecycle management. It maps out how dynamic group memberships and Conditional Access policies hand off controls automatically as someone joins, moves up within the company, and eventually exits.
 
-**Why this lab:** <br>Proves hands-on execution of core IAM workflows. Instead of just studying policies on paper, it builds out the mechanics—group-driven access control, layered Conditional Access, and automated JML transitions—that day-to-day identity and cloud security admins rely on.<br>
+**/<ins>Why this lab:</ins>** <br>Proves hands-on execution of core IAM workflows. Instead of just studying policies on paper, it builds out the mechanics—group-driven access control, layered Conditional Access, and automated JML transitions—that day-to-day identity and cloud security admins rely on.<br>
 <br>
 
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Entra-admin-centre.png?raw=true)
