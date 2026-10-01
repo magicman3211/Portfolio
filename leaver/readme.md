@@ -16,3 +16,5 @@ Conditions > Leave default (applies to all device platforms, locations, and clie
 Access controls > Grant > Block Access<br>
 Enable Policy > On<br>
 <br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/CA-JML-Leaver-Quarantine-HardBlock.png?raw=true)<br>
+<br>
