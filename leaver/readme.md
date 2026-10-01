@@ -28,4 +28,6 @@ Add Task > Remove user from all groups >> remove user from all teams<br>
 Add Task > Send email to notify manager of user move (Alert manager to request updated access packages)<br>
 Add Task > Add user to group > group-lifecycle-leavers-quarantine<br>
 <br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Config-Lifecycle-Workflow-Leaver-Offboarding.png?raw=true)<br>
+<br>
 
