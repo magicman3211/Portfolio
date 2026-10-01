@@ -44,4 +44,5 @@ Select the device in Intune > Click Retire<br>
 Effect: Removes corporate data, managed apps, Wi-Fi/VPN certificates, and compliant status, leaving personal data intact<br>
 <br>
 <br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Retire-device-intune.png?raw=true)<br>
 
