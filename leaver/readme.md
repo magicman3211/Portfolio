@@ -30,4 +30,10 @@ Add Task > Add user to group > group-lifecycle-leavers-quarantine<br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Config-Lifecycle-Workflow-Leaver-Offboarding.png?raw=true)<br>
 <br>
-
+<br>
+**<ins>Now one of the last steps is Offboarding any devices of the employee</ins>**<br>
+<br>
+Option A: Managed Devices (Corporate-Owned)<br>
+Navigate to Microsoft Intune admin center > Devices > All devices > Select employee device.
+Wipe: Issues a full factory reset (best for devices being reassigned or returned).
+Autopilot Cleanup: If reassigning, delete the Windows Autopilot hardware hash assignment or re-tag the device profile.
