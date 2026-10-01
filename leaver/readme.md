@@ -18,3 +18,14 @@ Enable Policy > On<br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/CA-JML-Leaver-Quarantine-HardBlock.png?raw=true)<br>
 <br>
+**<ins>Now to Add a new lifecycle workflow for the Leavers</ins>**<br>
+Goto ID Governance > lifecycle workflows > Create Workflow<br>
+Select Offboard an Employee template > enter workflow name > "Offboard an Employee" > Trigger > Time Based Attribute<br>
+Scoping & Trigger > employeeLeaveDateTime > Trigger type > Time Based > 0 days
+Add Task > Disable User Account<br>
+Add Task > Revoke all refresh tokens for user<br>
+Add Task > Remove user from all groups >> remove user from all teams<br>
+Add Task > Send email to notify manager of user move (Alert manager to request updated access packages)<br>
+Add Task > Add user to group > group-lifecycle-leavers-quarantine<br>
+<br>
+
