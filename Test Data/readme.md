@@ -3,3 +3,5 @@ For the test data, I generated names, job titles and Departments with AI, an thi
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Test-user-data-input.png?raw=true)<br>
 <br>
+<br>
+Now that I have everyone Entered, I have an start date of tomorrow, I will now add all that start tomorrow to the New-Hires-Group<br>
