@@ -13,7 +13,7 @@ Why this lab<br>
 [Joiner](joiner/README.md) – new hire onboarding<br>
 [Mover](mover/readme.md) – promotion to senior level<br>
 [Leaver](leaver/readme.md) – retirement / offboarding<br>
-[Testing](./Test%Data/readme.md) - Testing/Tracking Test data through JML Process<br>
+[Testing](./Testing/readme.md) - Testing/Tracking Test data through JML Process<br>
 <br>
 <br>
 <br>
