@@ -5,3 +5,6 @@ For the test data, I generated names, job titles and Departments with AI, an thi
 <br>
 <br>
 Now that I have everyone Entered, I have an start date of tomorrow, I will now add all that start tomorrow to the New-Hires-Group<br>
+<br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Adding-New-Hires-to-lifecycle-new-hires-group.png?raw=true)<br>
+<br>
