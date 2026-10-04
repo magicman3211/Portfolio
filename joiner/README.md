@@ -53,7 +53,7 @@ Scope Property > userType > Operator > equal > Value "Member"<br>
 <br>
 Make sure the following tasks are enabled<br>
 <br>
-![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Config-Lifecycle-Workflow-Joiner-Enable-tasks.png?raw=true)<br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Config-Lifecycle-Workflow-Joiner-Enable-tasks-2nd-workflow.png?raw=true)<br>
 <br>
 Now for the day when the employee strarts, We create another Lifecycle Workflow<br>
 Create workflow > select Onboard new hire employee template<br>
