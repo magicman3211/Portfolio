@@ -15,10 +15,11 @@ And a workflow history showing a successful import of all tasks in this workflow
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Post-onbbard-pre-hire-employee-part-2.png?raw=true)<br>
 <br>
 <br>
-Completing Pre-Hire of Employees<br>
+Completing Pre-Hire of Employees (Above)<br>
 <br>
 <br>
 <br>
+Now for day of hire Employees<br>
 Image shows successful import (Onboard new hire Employees)<br>
 Note James Thornton had errors, because I mistakenly logged into his account before hire date onboarding process<br>
 <br>
@@ -28,3 +29,4 @@ Note James Thornton had errors, because I mistakenly logged into his account bef
 And a workflow history showing a successful import of all tasks in this workflow, below<br>
 <br>
 ![Image 2](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Post-Onboard-new-hire-employee-2.png?raw=true)<br>
+<br>
