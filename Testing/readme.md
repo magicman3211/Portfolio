@@ -30,3 +30,6 @@ And a workflow history showing a successful import of all tasks in this workflow
 <br>
 ![Image 2](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Post-Onboard-new-hire-employee-2.png?raw=true)<br>
 <br>
+<br>
+James Thornton error occured because after pre-hire workflow, I signed in to his account, then when onboard new hire workflow ran, it had already triggered Generate TAP (which is a one off use)<br>
+<br>
