@@ -16,7 +16,7 @@ And a workflow history showing a successful import of all tasks in this workflow
 <br>
 <br>
 Completing Pre-Hire of Employees<br>
----
+<br>
 <br>
 <br>
 Image shows successful import (Onboard new hire Employees)<br>
