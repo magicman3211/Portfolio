@@ -4,6 +4,7 @@ I chose to do it manually this time, so I can see all the processes as I enter t
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Test-user-data-input.png?raw=true)<br>
 <br>
 <br>
+**<ins>Joiner Process</ins>**
 Now that I have everyone Entered, I have an start date of two days time, So in 1 day the pre-employement lifecycle-workflow will initiate<br>
 <br>
 Image shows a successful import (Onboard pre-hire Employees - Workflow)<br>
