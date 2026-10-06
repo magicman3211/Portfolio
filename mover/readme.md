@@ -25,8 +25,7 @@ Conditional Access > Create new policy > name > "CA-JML-Mover-RoleTransition"<br
 Assignments > Users > Include > user and groups > group-lifecycle-movers > exclude > break-glass Accounts<br>
 Target resources > Include ? All cloud Apps<br>
 Client Apps > Configue > Yes > Browser, Mobile Apps & Desktop clients
-Access controls > Grant > require authentication strength > Phishing resistant MFA > require device to be complient > require all the selected controls enabled<br>
-Session > Sign-in frequency > Periodic reauthentication > 1 Hr<br>
+Access controls > Grant > require multifactor authentication <br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/CA-JML-Mover-RoleTransition.png?raw=true)<br>
 <br>
