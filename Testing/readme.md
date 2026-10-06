@@ -41,3 +41,9 @@ James Thornton error occured because after pre-hire workflow, I signed in to his
 **<ins>Mover Process</ins>**<br>
 <br>
 The Mover Process has 1 manual task, that is in Change of Job Title to a "Senior" Postition<br>
+<br>
+The 4 Employees moving to Senior Roles will be:<br>
+Aisha Patel<br>
+Carlos Mendez<br>
+David O'Conner<br>
+Hannah Schmidt<br>
