@@ -27,5 +27,5 @@ Target resources > Include ? All cloud Apps<br>
 Client Apps > Configue > Yes > Browser, Mobile Apps & Desktop clients
 Access controls > Grant > require multifactor authentication <br>
 <br>
-![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/CA-JML-Mover-RoleTransition.png?raw=true)<br>
+![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/CA-JML-Mover-RoleTransition-2.png?raw=true)<br>
 <br>
