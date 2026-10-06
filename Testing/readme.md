@@ -22,7 +22,7 @@ Completing Pre-Hire of Employees<br>
 Image shows successful import (Onboard new hire Employees)<br>
 Note James Thornton had errors, because I mistakenly logged into his account before hire date onboarding process<br>
 <br>
-![Image 1](https://raw.githubusercontent.com/magicman3211/Portfolio/main/screenshots-images/Post-Onboard-new-hire-employee-1.png)
+![Image 1](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Post-Onboard-new-hire-employee-1.png?raw=true)
 <br>
 <br>
 And a workflow history showing a successful import of all tasks in this workflow, below<br>
