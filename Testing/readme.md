@@ -21,7 +21,7 @@ Completing Pre-Hire of Employees (Above)<br>
 <br>
 Now for day of hire Employees<br>
 Image shows successful import (Onboard new hire Employees)<br>
-Note James Thornton had errors, because I mistakenly logged into his account before hire date onboarding process<br>
+Note To Self - James Thornton had errors, because I mistakenly logged into his account before hire date onboarding process<br>
 <br>
 ![Image 1](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Post-Onboard-new-hire-employee-1.png?raw=true)
 <br>
