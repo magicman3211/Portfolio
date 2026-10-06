@@ -8,12 +8,14 @@ Memebership Type > Assigned<br>
 <br>
 **<ins>Now to Add a new lifecycle workflow for the movers</ins>**<br>
 Goto ID Governance > lifecycle workflows > Create Workflow<br>
-Select Mover template > enter workflow name > "Real-time employee job change" > Trigger ? On Demand<br>
-Add Task > Remove all access package assignments for user<br>
+Select Mover template > enter workflow name > "Employee job profile change" > Trigger ? On Demand<br>
+Add Task > Remove user from selected groups > group-lifecycle-new-hires<br>
 Add Task > Add user to groups > group-lifecycle-movers<br>
 Add Task > Revoke all refresh tokens for user<br>
+Add Task > Remove all access package assignments for user<br>
 Add Task > Send email to notify manager of user move (Alert manager to request updated access packages)<br>
-**Note: Last task added here only as I didnt have the required license**<br>
+(**Note request to new access packages arent included here as I dont have any packages assigned**)<br>
+<br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Workflow-lifecycle-movers.png?raw=true)<br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Workflow-lifecycle-movers-tasks.png?raw=true)<br>
