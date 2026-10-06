@@ -23,8 +23,7 @@ Name > CA-JML-Joiner-MFA-Registration-Enforcement<br>
 Groups we include are our group > group-lifecycle-new-hires<br>
 Target Resources > Under User Actions > we make sure to select > Register Security Information<br>
 Conditions > Network: Include Any location, Exclude Trusted / Named Corporate IP Ranges (if strict on-prem/managed network onboarding is required; otherwise leave default).<br>
-Access Controls > Grant > Select Grant Access > Access Controls > Select Grant access > <br>
-Check Require authentication strength > Select Phishing-resistant MFA (or custom strength specifying Temporary Access Pass / FIDO2) <br>
+Access Controls > Grant > Select Grant Access > Access Controls > Select Grant access > Check Require multifactor authentication<br>
 Enable policy: On (or Report-only for initial validation)<br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/CA-JML-Joiner-MFA-Registration-Enforcement.png?raw=true)<br>
@@ -35,7 +34,7 @@ Name > CA-JML-Joiner-Quarantine-EntApps<br>
 Users > Include specific group > group-lifecycle-new-hires >> Exclude Break-Glass Accounts<br>
 Target Resources > Select Cloud Apps > All Cloud Apps >> Exclude > Microsoft Intune Enrollment > Microsoft Authentication Broker<br>
 Conditions > Device Platforms: Any > Client Apps > Browser, Mobile apps and Desktop Clients<br>
-Access Controls > Grant > Select Grant > Block access >> Alernative Select Grant Access > check Require device to be marked as compliant<br>
+Access Controls > Grant > Select Grant > Check require multifactor authentication<br>
 Enable Policy > On<br>
 <br>
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/CA-JML-Joiner-Quarantine-EntApps.png?raw=true)<br>
