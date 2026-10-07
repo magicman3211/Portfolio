@@ -20,7 +20,7 @@ Enable Policy > On<br>
 <br>
 **<ins>Now to Add a new lifecycle workflow for the Leavers</ins>**<br>
 Goto ID Governance > lifecycle workflows > Create Workflow<br>
-Select Offboard an Employee template > enter workflow name > "Real-Time employee Termination" > Trigger > On_Demand<br>
+Select Real-time employee termination template > enter workflow name > "Real-Time employee Termination" > Trigger > On_Demand<br>
 Add Task > Disable User Account<br>
 Add Task > Revoke all refresh tokens for user<br>
 Add Task > Remove user from all groups >> remove user from all teams<br>
