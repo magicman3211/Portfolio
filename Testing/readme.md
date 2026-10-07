@@ -14,10 +14,8 @@ Image shows a successful import (Onboard pre-hire Employees - Workflow)<br>
 <br>
 <br>
 And a workflow history showing a successful import of all tasks in this workflow, below<br>
+Completing Pre-Hire of Employees<br>****
 ![image_alt](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Post-onbbard-pre-hire-employee-part-2.png?raw=true)<br>
-<br>
-<br>
-Completing Pre-Hire of Employees (Above)<br>
 <br>
 <br>
 <br>
