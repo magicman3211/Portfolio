@@ -66,4 +66,9 @@ Sarah Jenkins<br>
 Realtime employee termination lifecycle workflow > Run On-Demand > Select above employees<br>
 <br>
 ![image3](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Real-time-employee-termination-workflow-history.png?raw=true)<br>
-
+<br>
+<br>
+The following screenshot show quarantined users now in a group of their own that are disabled users<br>
+<br>
+![quarintined_users](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/group-lifecycle-leavers-quarantined%20users.png?raw=true)<br>
+<br>
