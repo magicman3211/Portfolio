@@ -15,8 +15,8 @@ Why this lab<br>
 [Leaver](leaver/readme.md) – retirement / offboarding<br>
 [Testing](./Testing/readme.md) - Testing/Tracking Test data through JML Process<br>
 <br>
+[Conclusions](./Conclusions/readme.md)<br>
 <br>
-[Conclusions](./Conclusions/readme.md)
 <br>
 **<ins>OVERVIEW:</ins>**<br>
 Built a small-scale Entra ID lab to test end-to-end identity lifecycle management. It maps out how dynamic group memberships and Conditional Access policies hand off controls automatically as someone joins, moves up within the company, and eventually exits.
