@@ -50,4 +50,18 @@ Hannah Schmidt<br>
 ![worflow-history](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Lifecycle-workflow-employee-job-profile-change-workflow-history.png?raw=true)<br>
 ![workflow-task](https://github.com/magicman3211/Portfolio/blob/main/screenshots-images/Lifecycle-workflow-employee-job-profile-change-workflow-history-task-view.png?raw=true)<br>
 <br>
+<br>
+**<ins>Leaver Process</ins>**
+<br>
+<br>
+The Leaver Process is purely a manual trigger event<br>
+<br>
+The 4 Epployees Leaving the Business will be:<br>
+Elana Rostova<br>
+Liam Vance<Br>
+Marcus Chen<br>
+Sarah Jenkins<br>
+<br>
+<br>
+
 
